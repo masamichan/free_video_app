@@ -1,0 +1,5 @@
+.topFixBanner {
+  back-ground-image: url("../css/image/banner.jpg");
+  mini-height: 550px;
+  background-attachment: fixed;
+}
