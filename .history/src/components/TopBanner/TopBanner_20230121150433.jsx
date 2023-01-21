@@ -13,7 +13,7 @@ export class TopBanner extends Component {
               <Row>
                 <Col className="text-center">
                   <h1 className="topTitle">EASY LEANING</h1>
-                  <h4 className="topSubTitle">Learn Professionally</h4>
+                  <h4>Learn Professionally</h4>
                   <Button variant="primary">Learn More</Button>
                 </Col>
               </Row>
