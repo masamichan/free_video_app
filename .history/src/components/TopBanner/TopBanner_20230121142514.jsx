@@ -7,7 +7,7 @@ export class TopBanner extends Component {
   render() {
     return (
       <Fragment>
-        <Container fluid={true} className="topFixedBanner p-0">
+        <Container className="topFixedBanner">
           <div className="topBannerOverlay">
             <Container className="topContent">
               <Row>
