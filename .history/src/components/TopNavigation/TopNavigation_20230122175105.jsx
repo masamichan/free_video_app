@@ -11,16 +11,12 @@ export class TopNavigation extends Component {
   }
 
   onScroll = () => {
-    if (window.scrollY > 100) {
-      this.setState({ navBarTitle: "navTitleScroll" });
-    } else if (window.scrollY < 100) {
-      this.setState({ navBarTitle: "navTitle" });
+    if (window.scroll > 100) {
+      this.setState({ navBarTitle: "navTileScroll" });
+    } else if (window.scroll < 100) {
+      this.setState({ navbarTitle: "navTitle" });
     }
   };
-
-  componentDidMount() {
-    window.addEventListener("scroll", this.onScroll);
-  }
 
   render() {
     return (
@@ -33,7 +29,7 @@ export class TopNavigation extends Component {
           variant="dark"
         >
           <Container>
-            <Navbar.Brand className={this.state.navBarTitle} href="#home">
+            <Navbar.Brand className="navTitle" href="#home">
               EASY LEARNING
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

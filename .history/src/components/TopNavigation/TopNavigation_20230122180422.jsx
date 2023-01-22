@@ -12,7 +12,7 @@ export class TopNavigation extends Component {
 
   onScroll = () => {
     if (window.scrollY > 100) {
-      this.setState({ navBarTitle: "navTitleScroll" });
+      this.setState({ navBarTitle: "navTileScroll" });
     } else if (window.scrollY < 100) {
       this.setState({ navBarTitle: "navTitle" });
     }
