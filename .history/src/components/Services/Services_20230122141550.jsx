@@ -10,7 +10,7 @@ export class Services extends Component {
       <Fragment>
         <Container className="text-center">
           <h1 className="serviceMainTitle">MY SERVICES</h1>
-          <div className="bottom"></div>
+          <div className="button"></div>
           <Row>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">

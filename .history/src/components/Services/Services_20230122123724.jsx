@@ -8,9 +8,8 @@ export class Services extends Component {
   render() {
     return (
       <Fragment>
-        <Container className="text-center">
-          <h1 className="serviceMainTitle">MY SERVICES</h1>
-          <div className="bottom"></div>
+        <Container>
+          <h1>MY SERVICES</h1>
           <Row>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
