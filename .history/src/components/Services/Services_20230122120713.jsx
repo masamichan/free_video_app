@@ -13,17 +13,15 @@ export class Services extends Component {
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
                 <img className="ecommerceIcon" src={ecommerceIcon} />
-                <h2 className="serviceName">Ecommerce</h2>
-                <p className="serviceDescription">
-                  I will design and develop ecommerce online store website.
-                </p>
+                <h2>Ecommerce</h2>
+                <p>I will design and develop ecommerce online store website.</p>
               </div>
             </Col>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
                 <img className="designIcon" src={designIcon} />
-                <h2 className="serviceName">Web Design</h2>
-                <p className="serviceDescription">
+                <h2>Web Design</h2>
+                <p>
                   Qualified web design and attractive effects which catch
                   visitor's Eye.
                 </p>
@@ -32,8 +30,8 @@ export class Services extends Component {
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
                 <img className="webIcon" src={webIcon} />
-                <h2 className="serviceName">Web Development</h2>
-                <p className="serviceDescription">
+                <h2>Web Development</h2>
+                <p>
                   Clean and fresh code to make your website dynamic perfectly.
                 </p>
               </div>

@@ -23,7 +23,7 @@ export class Services extends Component {
               <div className="serviceCard text-center">
                 <img className="designIcon" src={designIcon} />
                 <h2 className="serviceName">Web Design</h2>
-                <p className="serviceDescription">
+                <p>
                   Qualified web design and attractive effects which catch
                   visitor's Eye.
                 </p>
@@ -33,7 +33,7 @@ export class Services extends Component {
               <div className="serviceCard text-center">
                 <img className="webIcon" src={webIcon} />
                 <h2 className="serviceName">Web Development</h2>
-                <p className="serviceDescription">
+                <p>
                   Clean and fresh code to make your website dynamic perfectly.
                 </p>
               </div>
