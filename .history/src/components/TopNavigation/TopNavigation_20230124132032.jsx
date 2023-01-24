@@ -55,22 +55,22 @@ export class TopNavigation extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
+                <Nav.Link className={this.sate.navBarItem} href="#deets">
                   HOME
                 </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
+                <Nav.Link className={this.sate.navBarItem} href="#deets">
                   ABOUT
                 </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
+                <Nav.Link className={this.sate.navBarItem} href="#deets">
                   SERVICE
                 </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
+                <Nav.Link className={this.sate.navBarItem} href="#deets">
                   COURSES
                 </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
+                <Nav.Link className={this.sate.navBarItem} href="#deets">
                   PORTFOLIO
                 </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
+                <Nav.Link className={this.sate.navBarItem} href="#deets">
                   CONTACT US
                 </Nav.Link>
               </Nav>

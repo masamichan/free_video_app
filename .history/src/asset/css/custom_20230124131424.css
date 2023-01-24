@@ -14,7 +14,7 @@
 }
 
 .topContent {
-  margin-top: 15em;
+  margin-top: 10em;
 }
 
 .topTitle {
@@ -127,14 +127,14 @@
   text-decoration: none !important;
   font-family: "Montserrat", sans-serif;
   color: #ffffff !important;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
 }
 
 .navItemScroll {
   text-decoration: none !important;
   font-family: "Montserrat", sans-serif;
-  color: #000000 !important;
-  font-weight: 700;
+  color: #ffffff !important;
+  font-weight: 400;
   font-size: 16px;
 }

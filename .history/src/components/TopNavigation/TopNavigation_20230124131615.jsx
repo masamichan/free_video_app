@@ -21,14 +21,12 @@ export class TopNavigation extends Component {
         navBarTitle: "navTitleScroll",
         navBarLogo: [blackLogo],
         navBarBack: "navBackgroundScroll",
-        navBarItem: "navItemScroll",
       });
     } else if (window.scrollY < 100) {
       this.setState({
         navBarTitle: "navTitle",
         navBarLogo: [whiteLogo],
         navBarBack: "navBackground",
-        navBarItem: "navItem",
       });
     }
   };
@@ -55,24 +53,12 @@ export class TopNavigation extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  HOME
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  ABOUT
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  SERVICE
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  COURSES
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  PORTFOLIO
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  CONTACT US
-                </Nav.Link>
+                <Nav.Link href="#deets">HOME</Nav.Link>
+                <Nav.Link href="#deets">ABOUT</Nav.Link>
+                <Nav.Link href="#deets">SERVICE</Nav.Link>
+                <Nav.Link href="#deets">COURSES</Nav.Link>
+                <Nav.Link href="#deets">PORTFOLIO</Nav.Link>
+                <Nav.Link href="#deets">CONTACT US</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
