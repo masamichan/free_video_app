@@ -22,11 +22,7 @@ export class TopNavigation extends Component {
         navBarBack: "navBackgroundScroll",
       });
     } else if (window.scrollY < 100) {
-      this.setState({
-        navBarTitle: "navTitle",
-        navBarLogo: [whiteLogo],
-        navBarBack: "navBackground",
-      });
+      this.setState({ navBarTitle: "navTitle", navBarLogo: [whiteLogo] });
     }
   };
 
@@ -38,10 +34,10 @@ export class TopNavigation extends Component {
     return (
       <Fragment>
         <Navbar
-          className={this.state.navBarBack}
           collapseOnSelect
           fixed="top"
           expand="lg"
+          bg="dark"
           variant="dark"
         >
           <Container>

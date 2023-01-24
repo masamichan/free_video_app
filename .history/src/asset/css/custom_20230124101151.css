@@ -108,9 +108,6 @@
 }
 
 .navBackground {
-  -webkit-transition: background-color 400ms llinear;
-  -moz-transition: background-color 400ms linear;
-  -o-transition: background-color 400ms linear;
   transition: background-color 400ms linear;
   background-color: rgb(00, 00, 00, 0) !important;
 }

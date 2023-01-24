@@ -38,10 +38,10 @@ export class TopNavigation extends Component {
     return (
       <Fragment>
         <Navbar
-          className={this.state.navBarBack}
           collapseOnSelect
           fixed="top"
           expand="lg"
+          bg="dark"
           variant="dark"
         >
           <Container>

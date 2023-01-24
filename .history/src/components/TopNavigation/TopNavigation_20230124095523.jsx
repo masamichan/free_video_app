@@ -42,6 +42,7 @@ export class TopNavigation extends Component {
           collapseOnSelect
           fixed="top"
           expand="lg"
+          bg="dark"
           variant="dark"
         >
           <Container>
