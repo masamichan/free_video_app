@@ -9,15 +9,14 @@ export class TopNavigation extends Component {
     super();
     this.state = {
       navBarTitle: "navTitle",
-      navBarLogo: [whiteLogo],
     };
   }
 
   onScroll = () => {
     if (window.scrollY > 100) {
-      this.setState({ navBarTitle: "navTitleScroll", navBarLogo: [blackLogo] });
+      this.setState({ navBarTitle: "navTitleScroll" });
     } else if (window.scrollY < 100) {
-      this.setState({ navBarTitle: "navTitle", navBarLogo: [whiteLogo] });
+      this.setState({ navBarTitle: "navTitle" });
     }
   };
 
@@ -37,7 +36,7 @@ export class TopNavigation extends Component {
         >
           <Container>
             <Navbar.Brand className={this.state.navBarTitle} href="#home">
-              <img src={this.state.navBarLogo} />
+              EASY LEARNING
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

@@ -17,7 +17,7 @@ export class TopNavigation extends Component {
     if (window.scrollY > 100) {
       this.setState({ navBarTitle: "navTitleScroll", navBarLogo: [blackLogo] });
     } else if (window.scrollY < 100) {
-      this.setState({ navBarTitle: "navTitle", navBarLogo: [whiteLogo] });
+      this.setState({ navBarTitle: "navTitle" });
     }
   };
 
@@ -37,7 +37,7 @@ export class TopNavigation extends Component {
         >
           <Container>
             <Navbar.Brand className={this.state.navBarTitle} href="#home">
-              <img src={this.state.navBarLogo} />
+              EASY LEARNING
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
