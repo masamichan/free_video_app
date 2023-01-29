@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 export class Summary extends Component {
   render() {
     return (
@@ -28,27 +28,7 @@ export class Summary extends Component {
                   </Row>
                 </Col>
                 <Col lg={4} md={6} sm={12}>
-                  <Card className="workCard">
-                    <Card.Body>
-                      <Card.Title className="cardTitle">
-                        What I have Achieved
-                      </Card.Title>
-                      <Card.Text>
-                        <p className="cardSubTitle text-justify">
-                          Requirement Gathering
-                        </p>
-                        <p className="cardSubTitle text-justify">
-                          System Analysis
-                        </p>
-                        <p className="cardSubTitle text-justify">
-                          Coding Testing
-                        </p>
-                        <p className="cardSubTitle text-justify">
-                          Implementation
-                        </p>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <h1>Four</h1>
                 </Col>
               </Row>
             </Container>

@@ -28,24 +28,12 @@ export class Summary extends Component {
                   </Row>
                 </Col>
                 <Col lg={4} md={6} sm={12}>
-                  <Card className="workCard">
+                  <Card style={{ width: "18rem" }}>
                     <Card.Body>
-                      <Card.Title className="cardTitle">
-                        What I have Achieved
-                      </Card.Title>
+                      <Card.Title>What I have Achieved</Card.Title>
                       <Card.Text>
-                        <p className="cardSubTitle text-justify">
-                          Requirement Gathering
-                        </p>
-                        <p className="cardSubTitle text-justify">
-                          System Analysis
-                        </p>
-                        <p className="cardSubTitle text-justify">
-                          Coding Testing
-                        </p>
-                        <p className="cardSubTitle text-justify">
-                          Implementation
-                        </p>
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
                       </Card.Text>
                     </Card.Body>
                   </Card>

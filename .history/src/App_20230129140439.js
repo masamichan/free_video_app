@@ -4,7 +4,7 @@ import Services from "./components/Services/Services";
 import Summary from "./components/Summary/Summary";
 import { TopBanner } from "./components/TopBanner/TopBanner";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
-import "./asset/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

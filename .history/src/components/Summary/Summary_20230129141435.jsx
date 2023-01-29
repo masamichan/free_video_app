@@ -9,8 +9,8 @@ export class Summary extends Component {
             <Container className="text-center">
               <Row>
                 <Col lg={8} md={6} sm={12}>
-                  <Row className="countSection">
-                    <Col>
+                  <Row>
+                    <Col className="countSection">
                       <h1 className="countNumber">35000</h1>
                       <h4 className="countTitle">Students WorldWide</h4>
                       <hr className="bg-white w-25" />

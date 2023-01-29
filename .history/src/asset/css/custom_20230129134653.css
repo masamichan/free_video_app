@@ -25,7 +25,7 @@
 }
 
 .topSubTitle {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", san-serif;
   font-weight: 600;
   color: #ffffff;
   font-size: 22px;
@@ -108,11 +108,11 @@
 }
 
 .navBackground {
-  -webkit-transition: background-color 400ms linear;
+  -webkit-transition: background-color 400ms llinear;
   -moz-transition: background-color 400ms linear;
   -o-transition: background-color 400ms linear;
   transition: background-color 400ms linear;
-  background-color: rgba(00, 00, 00, 0) !important;
+  background-color: rgb(00, 00, 00, 0) !important;
 }
 
 .navBackgroundScroll {
@@ -121,13 +121,12 @@
   -o-transition: background-color 400ms linear;
   transition: background-color 400ms linear;
   background-color: #ffffff;
-  box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.3);
 }
 
 .navItem {
   text-decoration: none !important;
   font-family: "Montserrat", sans-serif;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 700;
   font-size: 16px;
 }
@@ -173,16 +172,4 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 15px;
-}
-.cardSubTitle {
-  color: #000000;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.workCard {
-  margin-top: 25%;
-  padding: 10px 10px 10px 10px;
-  border-radius: 3px;
 }

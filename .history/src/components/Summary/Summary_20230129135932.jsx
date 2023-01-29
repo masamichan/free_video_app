@@ -28,23 +28,23 @@ export class Summary extends Component {
                   </Row>
                 </Col>
                 <Col lg={4} md={6} sm={12}>
-                  <Card className="workCard">
+                  <Card style={{ width: "18rem" }}>
                     <Card.Body>
                       <Card.Title className="cardTitle">
                         What I have Achieved
                       </Card.Title>
                       <Card.Text>
                         <p className="cardSubTitle text-justify">
-                          Requirement Gathering
+                          Requirment Gathering{" "}
                         </p>
                         <p className="cardSubTitle text-justify">
-                          System Analysis
+                          System Analysis{" "}
                         </p>
                         <p className="cardSubTitle text-justify">
-                          Coding Testing
+                          Coding Testing{" "}
                         </p>
                         <p className="cardSubTitle text-justify">
-                          Implementation
+                          Implementation{" "}
                         </p>
                       </Card.Text>
                     </Card.Body>
