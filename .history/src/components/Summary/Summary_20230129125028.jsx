@@ -7,7 +7,7 @@ export class Summary extends Component {
         <Container fluid={true} className="summaryBanner p-0">
           <div className="summaryBannerOverlay">
             <Container className="text-center">
-              <Row className="countSection">
+              <Row>
                 <Col lg={8} md={6} sm={12}>
                   <Row>
                     <Col>

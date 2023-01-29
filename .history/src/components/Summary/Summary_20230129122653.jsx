@@ -6,24 +6,21 @@ export class Summary extends Component {
       <Fragment>
         <Container fluid={true} className="summaryBanner p-0">
           <div className="summaryBannerOverlay">
-            <Container className="text-center">
-              <Row className="countSection">
+            <Container>
+              <Row>
                 <Col lg={8} md={6} sm={12}>
                   <Row>
                     <Col>
-                      <h1 className="countNumber">35000</h1>
-                      <h4 className="countTitle">Students WorldWide</h4>
-                      <hr className="bg-white w-25" />
+                      <h1>35000</h1>
+                      <h4>Students WorldWide</h4>
                     </Col>
                     <Col>
-                      <h1 className="countNumber">22</h1>
-                      <h4 className="countTitle">Students WorldWide</h4>
-                      <hr className="bg-white w-25" />
+                      <h1>22</h1>
+                      <h4>Students WorldWide</h4>
                     </Col>
                     <Col>
-                      <h1 className="countNumber">3000</h1>
-                      <h4 className="countTitle">Student Reviews</h4>
-                      <hr className="bg-white w-25" />
+                      <h1>3000</h1>
+                      <h4>Student Reviews</h4>
                     </Col>
                   </Row>
                 </Col>
