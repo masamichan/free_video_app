@@ -1,45 +1,16 @@
 import React, { Component, Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis } from "recharts";
 
 export class Analysis extends Component {
-  constructor() {
-    super();
-    this.state = {
-      data: [
-        { Technology: "PHP", Projects: 100 },
-        { Technology: "MySQL", Projects: 90 },
-        { Technology: "Laravel", Projects: 95 },
-        { Technology: "React", Projects: 85 },
-        { Technology: "OpenCart", Projects: 80 },
-        { Technology: "Vue js", Projects: 70 },
-        { Technology: "Django", Projects: 60 },
-        { Technology: "JavaScript", Projects: 100 },
-      ],
-    };
-  }
-
   render() {
-    var blue = "#051b35";
     return (
       <Fragment>
         <Container className="text-center">
           <h1 className="serviceMainTitle">TECHNOLOGY USED</h1>
           <div className="bottom"></div>
           <Row>
-            <Col
-              style={{ width: "100", height: "300px" }}
-              lg={6}
-              md={12}
-              sm={12}
-            >
-              <ResponsiveContainer>
-                <BarChart width={100} height={300} data={this.state.data}>
-                  <XAxis dataKey="Technology" />
-                  <Tooltip />
-                  <Bar dataKey="Projects" fill={blue}></Bar>
-                </BarChart>
-              </ResponsiveContainer>
+            <Col lg={6} md={12} sm={12}>
+              <h1>BarCart</h1>
             </Col>
             <Col lg={6} md={12} sm={12}>
               <p className="text-justify serviceDescription">

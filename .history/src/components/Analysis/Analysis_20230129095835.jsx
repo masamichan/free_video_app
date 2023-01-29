@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis } from "recharts";
+import { Bar, BarChart, ResponsiveContainer } from "recharts";
 
 export class Analysis extends Component {
   constructor() {
@@ -13,14 +13,14 @@ export class Analysis extends Component {
         { Technology: "React", Projects: 85 },
         { Technology: "OpenCart", Projects: 80 },
         { Technology: "Vue js", Projects: 70 },
-        { Technology: "Django", Projects: 60 },
+        { Technology: "Django", Projects: 100 },
+        { Technology: "PHP", Projects: 60 },
         { Technology: "JavaScript", Projects: 100 },
       ],
     };
   }
 
   render() {
-    var blue = "#051b35";
     return (
       <Fragment>
         <Container className="text-center">
@@ -28,17 +28,20 @@ export class Analysis extends Component {
           <div className="bottom"></div>
           <Row>
             <Col
-              style={{ width: "100", height: "300px" }}
+              style={{ width: "100%", height: "300px" }}
               lg={6}
               md={12}
               sm={12}
             >
               <ResponsiveContainer>
-                <BarChart width={100} height={300} data={this.state.data}>
-                  <XAxis dataKey="Technology" />
-                  <Tooltip />
-                  <Bar dataKey="Projects" fill={blue}></Bar>
-                </BarChart>
+                <BarChart
+                  width={100}
+                  height={300}
+                  data={this.state.data}
+                  <Bar datakey="Projects">
+
+                  </Bar>
+                ></BarChart>
               </ResponsiveContainer>
             </Col>
             <Col lg={6} md={12} sm={12}>

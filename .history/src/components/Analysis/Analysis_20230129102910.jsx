@@ -28,7 +28,7 @@ export class Analysis extends Component {
           <div className="bottom"></div>
           <Row>
             <Col
-              style={{ width: "100", height: "300px" }}
+              style={{ width: "100%", height: "300px" }}
               lg={6}
               md={12}
               sm={12}
@@ -43,9 +43,9 @@ export class Analysis extends Component {
             </Col>
             <Col lg={6} md={12} sm={12}>
               <p className="text-justify serviceDescription">
-                Hi! I'm Masami Iwakiri. I'm a web developer with a serious love
-                for teaching I am a founder of masamichan Learning and a Web
-                Developer, Programmer & Instructor.<br></br>
+                Hi! I'm Kazi Ariyan. I'm a web developer with a serious love for
+                teaching I am a founder of eLe easy Learning and a passionate
+                Web Developer, Programmer & Instructor.<br></br>
                 <br></br>I am working online for the last 7 years and have
                 created several successful websites running on the internet. I
                 try to create a project-based course that helps you to learn
