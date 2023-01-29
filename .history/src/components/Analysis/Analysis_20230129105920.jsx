@@ -6,14 +6,14 @@ class Analysis extends Component {
     super();
     this.state = {
       data: [
-        { Technology: "PHP", Projects: 100 },
-        { Technology: "MySQL", Projects: 90 },
-        { Technology: "Laravel", Projects: 95 },
-        { Technology: "React", Projects: 85 },
-        { Technology: "Opencart", Projects: 80 },
-        { Technology: "Vue Js", Projects: 70 },
-        { Technology: "Django", Projects: 60 },
-        { Technology: "JavaScript", Projects: 100 },
+        { Techonology: "PHP", Projects: 100 },
+        { Techonology: "MySqli", Projects: 90 },
+        { Techonology: "Laravel", Projects: 95 },
+        { Techonology: "React", Projects: 85 },
+        { Techonology: "Opencart", Projects: 80 },
+        { Techonology: "Vue Js", Projects: 70 },
+        { Techonology: "Django", Projects: 60 },
+        { Techonology: "JavaScript", Projects: 100 },
       ],
     };
   }
@@ -26,15 +26,18 @@ class Analysis extends Component {
           <h1 className="serviceMainTitle">TECHNOLOGY USED</h1>
           <div className="bottom"></div>
           <Row>
+            <Col lg={6} md={12} sm={12}>
+              <h1>BarChart</h1>
+            </Col>
             <Col
-              style={{ width: "100", height: "300px" }}
+              style={{ width: "100%", height: "300px" }}
               lg={6}
               md={12}
               sm={12}
             >
               <ResponsiveContainer>
                 <BarChart width={100} height={300} data={this.state.data}>
-                  <XAxis dataKey="Technology" />
+                  <XAxis dataKey="Techonology" />
                   <Tooltip />
                   <Bar dataKey="Projects" fill={blue}></Bar>
                 </BarChart>
@@ -44,7 +47,8 @@ class Analysis extends Component {
             <Col lg={6} md={12} sm={12}>
               <p className="text-justify serviceDescription">
                 Hi! I'm Masami Iwakiri. I'm a web developer with a serious love
-                for teaching. <br></br>
+                for teaching I am a founder of eLe easy Learning and a
+                passionate Web Developer, Programmer & Instructor.<br></br>
                 <br></br>I am working online for the last 7 years and have
                 created several successful websites running on the internet. I
                 try to create a project-based course that helps you to learn

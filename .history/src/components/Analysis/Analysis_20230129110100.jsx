@@ -26,8 +26,11 @@ class Analysis extends Component {
           <h1 className="serviceMainTitle">TECHNOLOGY USED</h1>
           <div className="bottom"></div>
           <Row>
+            <Col lg={6} md={12} sm={12}>
+              <h1>BarChart</h1>
+            </Col>
             <Col
-              style={{ width: "100", height: "300px" }}
+              style={{ width: "100%", height: "300px" }}
               lg={6}
               md={12}
               sm={12}
@@ -44,7 +47,8 @@ class Analysis extends Component {
             <Col lg={6} md={12} sm={12}>
               <p className="text-justify serviceDescription">
                 Hi! I'm Masami Iwakiri. I'm a web developer with a serious love
-                for teaching. <br></br>
+                for teaching I am a founder of eLe easy Learning and a
+                passionate Web Developer, Programmer & Instructor.<br></br>
                 <br></br>I am working online for the last 7 years and have
                 created several successful websites running on the internet. I
                 try to create a project-based course that helps you to learn

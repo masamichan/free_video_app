@@ -12,7 +12,7 @@ function App() {
       <TopBanner />
       <Services />
       <Analysis />
-      <Summary />
+      <Summary
     </div>
   );
 }

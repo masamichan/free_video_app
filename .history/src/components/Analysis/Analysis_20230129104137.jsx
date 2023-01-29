@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis } from "recharts";
-class Analysis extends Component {
+import { Col, Container, Row, Tooltip } from "react-bootstrap";
+import { Bar, BarChart, ResponsiveContainer, XAxis } from "recharts";
+
+export class Analysis extends Component {
   constructor() {
     super();
     this.state = {
@@ -10,8 +11,8 @@ class Analysis extends Component {
         { Technology: "MySQL", Projects: 90 },
         { Technology: "Laravel", Projects: 95 },
         { Technology: "React", Projects: 85 },
-        { Technology: "Opencart", Projects: 80 },
-        { Technology: "Vue Js", Projects: 70 },
+        { Technology: "OpenCart", Projects: 80 },
+        { Technology: "Vue js", Projects: 70 },
         { Technology: "Django", Projects: 60 },
         { Technology: "JavaScript", Projects: 100 },
       ],
@@ -27,7 +28,7 @@ class Analysis extends Component {
           <div className="bottom"></div>
           <Row>
             <Col
-              style={{ width: "100", height: "300px" }}
+              style={{ width: "100%", height: "300px" }}
               lg={6}
               md={12}
               sm={12}
@@ -40,11 +41,11 @@ class Analysis extends Component {
                 </BarChart>
               </ResponsiveContainer>
             </Col>
-
             <Col lg={6} md={12} sm={12}>
               <p className="text-justify serviceDescription">
                 Hi! I'm Masami Iwakiri. I'm a web developer with a serious love
-                for teaching. <br></br>
+                for teaching I am a founder of masamichan Learning and a Web
+                Developer, Programmer & Instructor.<br></br>
                 <br></br>I am working online for the last 7 years and have
                 created several successful websites running on the internet. I
                 try to create a project-based course that helps you to learn
@@ -63,4 +64,5 @@ class Analysis extends Component {
     );
   }
 }
+
 export default Analysis;

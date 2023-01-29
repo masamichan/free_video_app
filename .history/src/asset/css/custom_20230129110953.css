@@ -139,8 +139,8 @@
   font-size: 16px;
 }
 .summaryBanner {
-  background-image: url("../image/summary.jpg");
-  min-height: 400px;
+  background-image: url("../image/banner.jpg");
+  min-height: 550px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@
 }
 .summaryBannerOverlay {
   position: absolute;
-  min-height: 400px;
+  min-height: 550px;
   width: 100%;
-  background: rgb(27, 31, 92, 0.7);
+  background: rgb(0, 0, 0, 0.7);
 }
