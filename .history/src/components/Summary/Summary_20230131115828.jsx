@@ -22,16 +22,13 @@ export class Summary extends Component {
                       <hr className="bg-white w-25" />
                     </Col>
                     <Col>
-                      <FontAwesomeIcon
-                        className="iconProject"
-                        icon={faLaptop}
-                      />
+                      <FontAwesomeIcon icon={faLaptop} />
                       <h1 className="countNumber">22</h1>
                       <h4 className="countTitle">Students WorldWide</h4>
                       <hr className="bg-white w-25" />
                     </Col>
                     <Col>
-                      <FontAwesomeIcon className="iconProject" icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
                       <h1 className="countNumber">3000</h1>
                       <h4 className="countTitle">Student Reviews</h4>
                       <hr className="bg-white w-25" />
