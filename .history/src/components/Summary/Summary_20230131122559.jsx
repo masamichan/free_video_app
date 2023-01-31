@@ -5,6 +5,7 @@ import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faLaptop } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { CountUp } from "react-countup";
 export class Summary extends Component {
   render() {
     return (
