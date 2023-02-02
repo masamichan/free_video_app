@@ -10,7 +10,7 @@ export class RecentProject extends Component {
           <div className="bottom"></div>
           <Row>
             <Col lg={4} md={6} sm={12}>
-              <Card className="projectCard">
+              <Card style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
                   src="https://img.freepik.com/free-vector/coach-speaking-before-audience-mentor-presenting-charts-and-reports-employees-meeting-at-business-training-seminar-or-conference-vector-illustration-for-presentation-lecture-education_74855-8294.jpg?size=626&ext=jpg&uid=R91501435&ga=GA1.1.1662293289.1675141153&semt=sph"
@@ -46,7 +46,7 @@ export class RecentProject extends Component {
               </Card>
             </Col>
             <Col lg={4} md={6} sm={12}>
-              <Card className="projectCard">
+              <Card style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
                   src="https://image.freepik.com/free-vector/online-tutorials-concept_52683-37481.jpg"

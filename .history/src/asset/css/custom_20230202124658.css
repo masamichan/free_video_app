@@ -208,6 +208,5 @@
 }
 
 .projectCard:hover {
-  transform: scale(1.03);
   box-shadow: 0 13px 30px -5px;
 }
