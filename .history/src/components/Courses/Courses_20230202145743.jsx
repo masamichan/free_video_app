@@ -13,7 +13,7 @@ export class Courses extends Component {
                 <Col lg={6} md={6} sm={12} className="p-2">
                   <img
                     className="courseImg"
-                    src="https://img.freepik.com/free-photo/close-up-hand-taking-notes_23-2148888827.jpg?w=2000&t=st=1675317493~exp=1675318093~hmac=d6cbf9bfbfdc813b6226f9a8c2d3a8376af103520df0c55e2d75b3cae7acef22"
+                    src="https://img.freepik.com/free-vector/university-student-cap-mortar-board-and-diploma_3446-334.jpg?w=1380&t=st=1675316502~exp=1675317102~hmac=879d34876aa3e8ecbec9665fafc9029ab0294c000f4b38c9dbac5dc0d871338a"
                   />
                 </Col>
 
@@ -68,14 +68,14 @@ export class Courses extends Component {
                   </a>
                 </Col>
 
-                <Col lg={6} md={6} sm={12}>
+                <Col lg={6} md={6} sm={12} className="p-2">
                   <img
                     className="courseImg"
                     src="https://img.freepik.com/free-photo/freelance-business-women-casual-wear-using-laptop-working-call-video-conference-with-customer-in-workplace-in-living-room-at-home-happy-young-asian-girl-relax-sitting-on-desk-do-job-in-internet_7861-2448.jpg?w=2000&t=st=1675316535~exp=1675317135~hmac=3b88697b844f180cc5455b7e470c5a6a33f2ec0006144219cf3b712bd313b6ea"
                   />
                 </Col>
 
-                <Col lg={6} md={6} sm={12} className="p-2">
+                <Col lg={6} md={6} sm={12}>
                   <h5 className="text-justify serviceName">Laravel 8 </h5>
                   <p className="text-justify serviceDescription">
                     Some quick example text to build on the card title and make

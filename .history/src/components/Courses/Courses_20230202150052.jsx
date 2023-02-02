@@ -75,7 +75,7 @@ export class Courses extends Component {
                   />
                 </Col>
 
-                <Col lg={6} md={6} sm={12} className="p-2">
+                <Col lg={6} md={6} sm={12}>
                   <h5 className="text-justify serviceName">Laravel 8 </h5>
                   <p className="text-justify serviceDescription">
                     Some quick example text to build on the card title and make

@@ -13,7 +13,7 @@ export class Courses extends Component {
                 <Col lg={6} md={6} sm={12} className="p-2">
                   <img
                     className="courseImg"
-                    src="https://img.freepik.com/free-photo/close-up-hand-taking-notes_23-2148888827.jpg?w=2000&t=st=1675317493~exp=1675318093~hmac=d6cbf9bfbfdc813b6226f9a8c2d3a8376af103520df0c55e2d75b3cae7acef22"
+                    src="https://img.freepik.com/free-photo/close-up-hand-writing-on-notebook-top-view_23-2148888824.jpg?w=1800&t=st=1675314859~exp=1675315459~hmac=4c4f97a903dea5a80e03bfa4b7066a295b620b88d2e933eb3a07ef96ae6c6b3d"
                   />
                 </Col>
 
@@ -31,7 +31,7 @@ export class Courses extends Component {
                 <Col lg={6} md={6} sm={12} className="p-2">
                   <img
                     className="courseImg"
-                    src="https://img.freepik.com/free-photo/smiling-asian-girl-waching-webinar-having-work-video-call-from-home-working-freelance-remotely-looki_1258-84303.jpg?w=1800&t=st=1675317384~exp=1675317984~hmac=65fb0cdb555b0cc8ee5d9a760c440fe5f46f7ceb852b0641b8261f98a566b826"
+                    src="https://img.freepik.com/free-photo/education-concept-student-studying-and-brainstorming-campus-concept-close-up-of-students-discussing-their-subject-on-books-or-textbooks-selective-focus_1418-627.jpg?w=1800&t=st=1675314827~exp=1675315427~hmac=89564f1377c5a2ce222a3158a58eb5a988e37231806aef6ec09931b7aec8cdc3"
                   />
                 </Col>
 
@@ -53,7 +53,7 @@ export class Courses extends Component {
                 <Col lg={6} md={6} sm={12} className="p-2">
                   <img
                     className="courseImg"
-                    src="https://img.freepik.com/free-photo/freelance-young-businesswoman-casual-wear-using-laptop-working-in-living-room-at-home_7861-3051.jpg?w=1800&t=st=1675316563~exp=1675317163~hmac=ecdff66c9752ce81fcfae01c6fd682faef2cdb8b0b5e9f127eccdb604d03245b"
+                    src="https://img.freepik.com/free-vector/university-student-cap-mortar-board-and-diploma_3446-334.jpg?w=1380&t=st=1675314790~exp=1675315390~hmac=8f0402c1fb32d6882a254f0306cad480bd35b075406c5dfac887263ebb752484"
                   />
                 </Col>
 
@@ -68,14 +68,14 @@ export class Courses extends Component {
                   </a>
                 </Col>
 
-                <Col lg={6} md={6} sm={12}>
+                <Col lg={6} md={6} sm={12} className="p-2">
                   <img
                     className="courseImg"
-                    src="https://img.freepik.com/free-photo/freelance-business-women-casual-wear-using-laptop-working-call-video-conference-with-customer-in-workplace-in-living-room-at-home-happy-young-asian-girl-relax-sitting-on-desk-do-job-in-internet_7861-2448.jpg?w=2000&t=st=1675316535~exp=1675317135~hmac=3b88697b844f180cc5455b7e470c5a6a33f2ec0006144219cf3b712bd313b6ea"
+                    src="https://img.freepik.com/free-photo/freelance-business-women-casual-wear-using-laptop-working-call-video-conference-with-customer-in-workplace-in-living-room-at-home-happy-young-asian-girl-relax-sitting-on-desk-do-job-in-internet_7861-2448.jpg?w=2000&t=st=1675314160~exp=1675314760~hmac=de7e363712c12af9598ee62e62576a3ce41f480285c2951d883b291099d9924d"
                   />
                 </Col>
 
-                <Col lg={6} md={6} sm={12} className="p-2">
+                <Col lg={6} md={6} sm={12}>
                   <h5 className="text-justify serviceName">Laravel 8 </h5>
                   <p className="text-justify serviceDescription">
                     Some quick example text to build on the card title and make
