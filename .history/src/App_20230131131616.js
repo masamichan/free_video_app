@@ -6,7 +6,6 @@ import { TopBanner } from "./components/TopBanner/TopBanner";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
 import "./asset/css/bootstrap.min.css";
 import RecentProject from "./components/RecentProject/RecentProject";
-import Courses from "./components/Courses/Courses";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Analysis />
       <Summary />
       <RecentProject />
-      <Courses />
     </div>
   );
 }
