@@ -14,10 +14,12 @@ export class ClientReview extends Component {
                 className="circleImg"
                 src="https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?size=626&ext=jpg&uid=R91501435&ga=GA1.2.1662293289.1675141153&semt=sph"
               />
-              <h2 className="reviewName">masamichan</h2>
-              <p className="reviewDescription">
+              <h2 className="reviewName">
                 Hi! I'm Masami Iwakiri. I'm a web developer with a serious love
                 for teaching.
+              </h2>
+              <p className="reviewDescription">
+                I will design and develop ecommerce online store website.
               </p>
             </Col>
           </Row>

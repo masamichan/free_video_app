@@ -280,19 +280,3 @@
   border: 1px solid #051b35;
   border-radius: 50%;
 }
-
-.reviewName {
-  color: #ffffff;
-  margin-top: 1rem;
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.reviewDescription {
-  color: #ffffff;
-  margin-top: 1rem;
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-}
