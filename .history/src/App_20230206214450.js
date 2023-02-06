@@ -15,7 +15,7 @@ function App() {
     <div>
       <TopNavigation />
       <TopBanner />
-      <Services />
+
       <Analysis />
       <Summary />
       <RecentProject />

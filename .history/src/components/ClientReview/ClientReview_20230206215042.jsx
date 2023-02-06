@@ -5,8 +5,8 @@ export class ClientReview extends Component {
   render() {
     return (
       <Fragment>
-        <Container fluid={true} className="siderBack text-center">
-          <h1 className="reviewMainTitle p-3">TEST MOIAL</h1>
+        <Container fluid={true} className="siderBack">
+          <h1 className="reviewMainTitle">TEST MOIAL</h1>
           <div className="reviewBottom"></div>
           <Row>
             <Col></Col>
