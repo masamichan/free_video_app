@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { Col, Container, Modal, Row, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "video-react/dist/video-react.css";
 import { faVideoSlash } from "@fortawesome/free-solid-svg-icons";
+import "~video-react/dist/video-react.css";
 import { Player, BigPlayButton } from "video-react";
 
 export class Video extends Component {
