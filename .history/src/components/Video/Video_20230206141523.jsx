@@ -1,18 +1,7 @@
 import React, { Component, Fragment } from "react";
-import { Col, Container, Modal, Row, Button } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVideoSlash } from "@fortawesome/free-solid-svg-icons";
+import { Col, Container, Row } from "react-bootstrap";
 
 export class Video extends Component {
-  constructor() {
-    super();
-    this.state = {
-      show: false,
-    };
-  }
-
-  modalClose = () => this.setState({ show: false });
-  modalOpen = () => this.setState({ show: true });
   render() {
     return (
       <Fragment>
@@ -20,7 +9,7 @@ export class Video extends Component {
           <h1 className="serviceMainTitle">OUR VIDEO</h1>
           <div className="bottom"></div>
           <Row>
-            <Col lg={6} md={6} sm={12} className="videoText">
+            <Col lg={6} md={6} sm={12}>
               <p className="serviceDescription text-justify">
                 Hi! I'm Masami Iwakiri. I'm a web developer with a serious love
                 for teaching.
@@ -38,25 +27,10 @@ export class Video extends Component {
               </p>
             </Col>
             <Col lg={6} md={6} sm={12} className="videoCard">
-              <FontAwesomeIcon
-                onClick={this.modalOpen}
-                className="iconProject"
-                icon={faVideoSlash}
-              />
+              <h1>text</h1>
             </Col>
           </Row>
         </Container>
-        <Modal size="lg" show={this.state.show} onHide={this.modalClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={this.modalClose}>
-              Close
-            </Button>
-          </Modal.Footer>
-        </Modal>
       </Fragment>
     );
   }

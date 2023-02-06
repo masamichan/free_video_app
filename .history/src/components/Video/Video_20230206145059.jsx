@@ -9,10 +9,10 @@ export class Video extends Component {
     this.state = {
       show: false,
     };
-  }
 
-  modalClose = () => this.setState({ show: false });
-  modalOpen = () => this.setState({ show: true });
+    modalClose = () => this.state({ show: false });
+    modalOpen = () => this.state({ show: true });
+  }
   render() {
     return (
       <Fragment>
@@ -38,22 +38,21 @@ export class Video extends Component {
               </p>
             </Col>
             <Col lg={6} md={6} sm={12} className="videoCard">
-              <FontAwesomeIcon
-                onClick={this.modalOpen}
-                className="iconProject"
-                icon={faVideoSlash}
-              />
+              <FontAwesomeIcon className="iconProject" icon={faVideoSlash} />
             </Col>
           </Row>
         </Container>
-        <Modal size="lg" show={this.state.show} onHide={this.modalClose}>
+        <Modal show={this.state.show} onHide={this.modalClose}>
           <Modal.Header closeButton>
             <Modal.Title>Modal heading</Modal.Title>
           </Modal.Header>
           <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={this.modalClose}>
+            <Button variant="secondary" onClick={handleClose}>
               Close
+            </Button>
+            <Button variant="primary" onClick={handleClose}>
+              Save Changes
             </Button>
           </Modal.Footer>
         </Modal>

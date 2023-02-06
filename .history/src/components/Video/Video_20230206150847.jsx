@@ -46,7 +46,7 @@ export class Video extends Component {
             </Col>
           </Row>
         </Container>
-        <Modal size="lg" show={this.state.show} onHide={this.modalClose}>
+        <Modal show={this.state.show} onHide={this.modalClose}>
           <Modal.Header closeButton>
             <Modal.Title>Modal heading</Modal.Title>
           </Modal.Header>
