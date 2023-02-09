@@ -13,7 +13,7 @@ export class ClientReview extends Component {
       infinite: true,
       vertical: true,
       verticalSwiping: 1,
-      speed: 3000,
+      speed: 100,
       arrows: false,
       slidesToShow: 1,
       slidesToScroll: 1,

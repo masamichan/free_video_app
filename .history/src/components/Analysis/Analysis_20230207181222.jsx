@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis } from "recharts";
-export class Analysis extends Component {
+ exportv class Analysis extends Component {
   constructor() {
     super();
     this.state = {
@@ -27,7 +27,7 @@ export class Analysis extends Component {
           <div className="bottom"></div>
           <Row>
             <Col
-              style={{ width: "100", height: "300px" }}
+              style={{ width: "100%", height: "300px" }}
               lg={6}
               md={12}
               sm={12}
