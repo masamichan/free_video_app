@@ -259,10 +259,9 @@
   background-color: #051b35;
   border-radius: 50%;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  align-item: flex-end;
+  justify-content: conter;
 }
 .aboutImg {
-  height: 100%;
-  margin-top: 210px;
+  height: 100p%;
 }

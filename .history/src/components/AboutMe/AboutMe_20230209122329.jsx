@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import face from "../../asset/image/face-removebg-preview.png";
+import face from "../../asset/image/fotor_2023-2-9_12_5_18.png";
 
 export class AboutMe extends Component {
   render() {
