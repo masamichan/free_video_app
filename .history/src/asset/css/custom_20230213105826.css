@@ -261,7 +261,6 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  float: right;
 }
 .aboutImg {
   height: 100%;
@@ -273,16 +272,4 @@
   padding-left: flex;
   justify-content: center;
   margin-top: 10rem;
-}
-.aboutMeTitle {
-  color: #051b35;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-}
-.aboutMeDetails {
-  color: #051b35;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 24px;
 }

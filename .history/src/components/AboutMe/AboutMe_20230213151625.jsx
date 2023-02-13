@@ -8,7 +8,7 @@ export class AboutMe extends Component {
     const myElement = document.querySelector("#myElement");
     init(myElement, {
       showCursor: false,
-      strings: ["Web Developer!", "Online Instructor!"],
+      strings: ["Use with React.js!", "Yeah!"],
     });
   }
   render() {

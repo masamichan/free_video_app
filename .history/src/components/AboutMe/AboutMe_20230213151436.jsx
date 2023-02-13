@@ -8,7 +8,7 @@ export class AboutMe extends Component {
     const myElement = document.querySelector("#myElement");
     init(myElement, {
       showCursor: false,
-      strings: ["Web Developer!", "Online Instructor!"],
+      strings: ["Use with React.js!", "Yeah!"],
     });
   }
   render() {
@@ -28,7 +28,7 @@ export class AboutMe extends Component {
                 <h2 className=" aboutMeDetails">HI There I'm</h2>
                 <h2 className="aboutMeTitle">Masamichan</h2>
                 <h3 className="aboutMeDetails">
-                  Work as <span id="myElement"></span>
+                  Work as <span>Developer</span>
                 </h3>
               </div>
             </Col>

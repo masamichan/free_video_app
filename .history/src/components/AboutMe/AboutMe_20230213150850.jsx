@@ -1,16 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import face from "../../asset/image/face-removebg-preview.png";
-import { init } from "ityped";
 
 export class AboutMe extends Component {
-  componentDidMount() {
-    const myElement = document.querySelector("#myElement");
-    init(myElement, {
-      showCursor: false,
-      strings: ["Web Developer!", "Online Instructor!"],
-    });
-  }
   render() {
     return (
       <Fragment>
@@ -28,7 +20,7 @@ export class AboutMe extends Component {
                 <h2 className=" aboutMeDetails">HI There I'm</h2>
                 <h2 className="aboutMeTitle">Masamichan</h2>
                 <h3 className="aboutMeDetails">
-                  Work as <span id="myElement"></span>
+                  Work as <span>Developer</span>
                 </h3>
               </div>
             </Col>
