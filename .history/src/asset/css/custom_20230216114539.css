@@ -289,12 +289,5 @@
 .footerSection {
   margin-top: 5rem;
   box-shadow: 0 0 8px 0;
-  background-color: #ff9999;
-}
-.footerName {
-  color: #ffffff;
-  margin-top: 1rem;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-weight: 600;
+  background-color: #051b35;
 }
