@@ -14,15 +14,12 @@ export class Footer extends Component {
             <Col lg="3" md={6} sm={12}>
               <h2 className="footerName text-center">Follow Us</h2>
               <div className="social-container">
-                <a className="facebook social" href="#">
-                  <FontAwesomeIcon icon={faFacebook} size="2x" />
-                </a>
-                <a className="youtube social" href="#">
-                  <FontAwesomeIcon icon={faYoutube} size="2x" />
-                </a>
-                <a className="twitter social" href="#">
-                  <FontAwesomeIcon icon={faTwitter} size="2x" />
-                </a>
+                <a className="facebook-social" href="#"></a>
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+                <a className="youtube-social" href="#"></a>
+                <FontAwesomeIcon icon={faYoutube} size="2x" />
+                <a className="twitter-social" href="#"></a>
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
               </div>
             </Col>
             <Col lg="3" md={6} sm={12}>
