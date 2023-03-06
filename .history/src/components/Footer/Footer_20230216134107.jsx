@@ -30,9 +30,9 @@ export class Footer extends Component {
             <Col lg="3" md={6} sm={12} className="p-5 text-justify">
               <h2 className="footerName text-center">Address</h2>
               <p className="footerDescription">
-                6522 Baltimore National Pick CatonsVille<br></br>
+                6522 Baltimore National Pick CatonsVille
                 <FontAwesomeIcon icon={faEnvelope} />
-                Email:Support@easybd.com<br></br>
+                Email:Support@easylearningbd.com
                 <FontAwesomeIcon icon={faPhone} />
                 Phone: 43434343
               </p>

@@ -32,7 +32,7 @@ export class Footer extends Component {
               <p className="footerDescription">
                 6522 Baltimore National Pick CatonsVille<br></br>
                 <FontAwesomeIcon icon={faEnvelope} />
-                Email:Support@easybd.com<br></br>
+                Email:Support@easylearningbd.com<br></br>
                 <FontAwesomeIcon icon={faPhone} />
                 Phone: 43434343
               </p>
